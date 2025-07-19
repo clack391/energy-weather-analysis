@@ -72,7 +72,7 @@ latest = map_data.groupby("city").last().reset_index()
 
 latest["lat"] = latest["city"].map(lambda c: coords[c][0])
 latest["lon"] = latest["city"].map(lambda c: coords[c][1])
-latest["color"] = pd.qcut(latest["value"], q=2, labels=["green", "red"])
+latest["color"] = pd.qcut(latest["value"], q=2, labels=["Low", "High"])
 
 # Safe sizing
 latest["size"] = latest["value"].clip(lower=0.1)
@@ -87,6 +87,10 @@ fig1 = px.scatter_map(
     hover_name="city",
     hover_data=["tmax", "tmin", "value"],
     zoom=3,
+    color_discrete_map={
+        "Low": "#FF0000", # Red
+        "High": "#2E86AB" # Blue
+    }
 )
 st.plotly_chart(fig1, use_container_width=True)
 
