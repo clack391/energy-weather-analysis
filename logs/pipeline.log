@@ -1,0 +1,42 @@
+2025-07-08 11:40:24,721 - INFO - Fetching NOAA for New York
+2025-07-08 11:40:26,577 - INFO - Weather: 5 rows for New York
+2025-07-08 11:40:26,577 - INFO - Fetching EIA v2 for New York
+2025-07-08 11:40:37,490 - INFO - EIA v2: 122 rows for New York
+2025-07-08 11:40:37,490 - INFO - Fetching NOAA for Chicago
+2025-07-08 11:40:38,371 - INFO - Weather: 5 rows for Chicago
+2025-07-08 11:40:38,371 - INFO - Fetching EIA v2 for Chicago
+2025-07-08 11:40:46,505 - INFO - EIA v2: 131 rows for Chicago
+2025-07-08 11:40:46,505 - INFO - Fetching NOAA for Houston
+2025-07-08 11:40:47,256 - INFO - Weather: 5 rows for Houston
+2025-07-08 11:40:47,256 - INFO - Fetching EIA v2 for Houston
+2025-07-08 11:40:54,796 - INFO - EIA v2: 124 rows for Houston
+2025-07-08 11:40:54,796 - INFO - Fetching NOAA for Phoenix
+2025-07-08 11:40:55,717 - INFO - Weather: 5 rows for Phoenix
+2025-07-08 11:40:55,717 - INFO - Fetching EIA v2 for Phoenix
+2025-07-08 11:41:04,696 - INFO - EIA v2: 130 rows for Phoenix
+2025-07-08 11:41:04,696 - INFO - Fetching NOAA for Seattle
+2025-07-08 11:41:05,482 - INFO - Weather: 5 rows for Seattle
+2025-07-08 11:41:05,482 - INFO - Fetching EIA v2 for Seattle
+2025-07-08 11:41:14,650 - INFO - EIA v2: 130 rows for Seattle
+2025-07-08 11:41:14,656 - INFO - Saved data/weather.csv and data/energy.csv
+2025-07-19 11:51:19,748 - INFO - Fetching NOAA for New York
+2025-07-19 11:51:22,738 - INFO - Weather: 88 rows for New York
+2025-07-19 11:51:22,738 - INFO - Fetching EIA v2 for New York
+2025-07-19 11:51:26,710 - INFO - EIA v2: 1764 rows for New York
+2025-07-19 11:51:26,710 - INFO - Fetching NOAA for Chicago
+2025-07-19 11:51:28,707 - INFO - Weather: 88 rows for Chicago
+2025-07-19 11:51:28,707 - INFO - Fetching EIA v2 for Chicago
+2025-07-19 11:51:32,075 - INFO - EIA v2: 1791 rows for Chicago
+2025-07-19 11:51:32,075 - INFO - Fetching NOAA for Houston
+2025-07-19 11:51:34,234 - INFO - Weather: 88 rows for Houston
+2025-07-19 11:51:34,234 - INFO - Fetching EIA v2 for Houston
+2025-07-19 11:51:37,017 - INFO - EIA v2: 1784 rows for Houston
+2025-07-19 11:51:37,017 - INFO - Fetching NOAA for Phoenix
+2025-07-19 11:51:39,042 - INFO - Weather: 88 rows for Phoenix
+2025-07-19 11:51:39,042 - INFO - Fetching EIA v2 for Phoenix
+2025-07-19 11:51:42,145 - INFO - EIA v2: 1698 rows for Phoenix
+2025-07-19 11:51:42,145 - INFO - Fetching NOAA for Seattle
+2025-07-19 11:51:44,846 - INFO - Weather: 88 rows for Seattle
+2025-07-19 11:51:44,846 - INFO - Fetching EIA v2 for Seattle
+2025-07-19 11:51:47,474 - INFO - EIA v2: 1790 rows for Seattle
+2025-07-19 11:51:47,539 - INFO - Saved data/weather.csv and data/energy.csv

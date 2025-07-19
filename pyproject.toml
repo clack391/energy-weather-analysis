@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "project1-energy-analysis"
+version = "0.1.0"
+description = "Integrate NOAA weather and EIA energy data"
+authors = ["Precious Onotu <clack391@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0"
+requests = "^2.28"
+PyYAML = "^6.0"
+python-dotenv = "^1.0"
+streamlit = "^1.25"
+plotly = "^5.14"
+statsmodels = "^0.14"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2"

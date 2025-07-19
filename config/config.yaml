@@ -1,0 +1,45 @@
+noaa:
+  token_env: NOAA_TOKEN
+
+eia:
+  token_env: EIA_TOKEN
+
+data_sources:
+  noaa_base_url: "https://www.ncei.noaa.gov/cdo-web/api/v2/data"
+  eia_base_url: "https://api.eia.gov/v2/electricity/rto/daily-region-data/data/"
+
+cities:
+  - name: "New York"
+    state: "New York"
+    station_id: "GHCND:USW00094728"
+    region_code: "NYIS"
+    lat: 40.7128
+    lon: -74.0060
+
+  - name: "Chicago"
+    state: "Illinois"
+    station_id: "GHCND:USW00094846"
+    region_code: "PJM"
+    lat: 41.8781
+    lon: -87.6298
+
+  - name: "Houston"
+    state: "Texas"
+    station_id: "GHCND:USW00012960"
+    region_code: "ERCO"
+    lat: 29.7604
+    lon: -95.3698
+
+  - name: "Phoenix"
+    state: "Arizona"
+    station_id: "GHCND:USW00023183"
+    region_code: "AZPS"
+    lat: 33.4484
+    lon: -112.0740
+
+  - name: "Seattle"
+    state: "Washington"
+    station_id: "GHCND:USW00024233"
+    region_code: "SCL"
+    lat: 47.6062
+    lon: -122.3321
